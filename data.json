@@ -1,0 +1,31 @@
+{
+  "operators": [
+    {
+      "id": 1,
+      "name": "Мегафон",
+      "src": "https://res.online.sberbank.ru/PhizIC-res/IMG/PU/10/bb/2a/33e3870ba1dfbee6ab6da723dc_26925.png",
+      "payment": {
+        "phoneNumber": "+7(777)-777-77-70",
+        "sum": 99
+      }
+    },
+    {
+      "id": 2,
+      "name": "МТС",
+      "src": "https://res.online.sberbank.ru/PhizIC-res/IMG/PU/8d/e8/fd/d61c46e34800aade49fd5a4472_6891.png",
+      "payment": {
+        "phoneNumber": "+7(930)-698-01-95",
+        "sum": 9
+      }
+    },
+    {
+      "id": 3,
+      "name": "Билайн",
+      "src": "https://res.online.sberbank.ru/PhizIC-res/IMG/PU/f2/d6/27/d09975c68dbbcd52c20f84236b_6755.png",
+      "payment": {
+        "phoneNumber": "+7(555)-555-55-55",
+        "sum": 88
+      }
+    }
+  ]
+}
