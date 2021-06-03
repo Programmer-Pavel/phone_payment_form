@@ -1,6 +1,10 @@
-### Demo ###
+### Запуск приложения ###
 
+npm run dev
 
+### Запуск сервера ###
+
+npm run server
 
 ## Used technologies ##
 
