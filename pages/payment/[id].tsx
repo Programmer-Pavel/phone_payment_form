@@ -50,13 +50,13 @@ const validationSchema = yup.object({
         .required('Сумма обязательна'),
 });
 
-function PhoneMask(props: { inputRef: any; }) {
+function PhoneMask(props: any) {
     const {inputRef, ...other} = props;
 
     return (
         <MaskedInput
             {...other}
-            ref={(ref: { inputElement: any; }) => {
+            ref={(ref: any) => {
                 inputRef(ref ? ref.inputElement : null);
             }}
             mask={['+', '7', '(', /\d/, /\d/, /\d/, ')', '-', /\d/, /\d/, /\d/, '-', /\d/, /\d/, '-', /\d/, /\d/]}
@@ -161,7 +161,7 @@ const Payment = ({operator}: OperatorPageProps) => {
 };
 export default Payment;
 
-export const getServerSideProps: GetServerSideProps = async ({params}) => {
+export const getServerSideProps: GetServerSideProps = async ({params}: any) => {
     const response = await fetch(`${process.env.API_URL}/operators/${params.id}`)
     const operator: IOperator = await response.json()
     return {

@@ -1,4 +1,5 @@
 import {GetStaticProps} from "next";
+import React from 'react';
 import { IOperator } from "../interfaces/interface";
 import Link from 'next/link';
 import styles from '../styles/main.module.css';
